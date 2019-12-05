@@ -10,7 +10,7 @@
   <meta name="author" content="">
 
   <title>Aurora - lista Clases</title>
-  <link rel="icon" type="image/png" href="img/Iconos/Logo.jpeg">
+  <link rel="icon" type="image/png" href="img/Logos/simboloAurora.jpeg">
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -29,10 +29,10 @@
 <body id="page-top">
 
   <!-- Topbar -->
-  <nav class="navbar navbar-expand navbar-expand bg-white topbar mb-6 static-top shadow">
-
+    <nav class="navbar navbar-expand navbar-dark topbar topbar" style="background-color: #00202C;">
+    <!-- <nav class="navbar navbar-expand navbar-dark topbar topbar" style="background-color: rgb(1, 25, 34);"> -->
       <!-- Logo simbolo -->
-      <img src="img/Iconos/LogoSimbolo.jpeg" class="navbar-brand js-scroll-trigger" href="#page-top" style="width: 60px">
+      <img src="img/Logos/LogosimboloAurora.jpeg" class="navbar-brand js-scroll-trigger" href="#page-top" style="width: 100px">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><br></span>
       </button>
@@ -182,7 +182,7 @@
         <!-- Nav Item - User Information -->
         <li class="nav-item dropdown no-arrow">
           <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Jorge Muñoz</span>
+            <span class="mr-2 d-none d-lg-inline text-white small">Jorge Muñoz</span>
             <img class="img-profile rounded-circle" src="img/Iconos/userIcon.png">
           </a>
           <!-- Dropdown - User Information -->
@@ -245,7 +245,7 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav  sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #3797C5;">
 
       <!-- Divider -->
       <hr class="sidebar-divider my-0">
@@ -352,185 +352,297 @@
 
      <!-- Begin Page Content -->
      <div class="container-fluid">
-
-        <!-- Page Heading -->
-        <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-        <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the <a target="_blank" href="https://datatables.net">official DataTables documentation</a>.</p>
-
+        <br><br>
         <!-- DataTales Example -->
         <div class="card shadow mb-4">
           <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Listado general de clases</h6>
+            <h4 class="m-0 font-weight-bold text-primary">Listado general de clases</h4>
           </div>
           <div class="card-body">
             <div class="table-responsive">
               <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                   <tr>
-                    <th>Cod.</th>
-                    <th>Nombre</th>
-                    <th>Docente a cargo</th>
-                    <th>Facultad</th>
-                    <th>Créditos</th>
-                    <th>Interés</th>
+                    <th><strong>Cod.</strong></th>
+                    <th><strong>Nombre</strong></th>
+                    <th><strong>Docente a cargo</strong></th>
+                    <th><strong>Carrera</strong></th>
+                    <th><strong>Facultad</strong></th>
+                    <th><strong>Créditos</strong></th>
+                    <th><strong>Interés detectado</strong></th>
                   </tr>
                 </thead>
-                <tfoot>
-                  <tr>
-                    <th>Cod.</th>
-                    <th>Nombre</th>
-                    <th>Docente a cargo</th>
-                    <th>Facultad</th>
-                    <th>Créditos</th>
-                    <th>Interés</th>
-                  </tr>
-                </tfoot>
                 <tbody>
                   <tr>
-                    <td>Tiger Nixon</td>
-                    <td>System Architect</td>
-                    <td>Edinburgh</td>
-                    <td>61</td>
-                    <td>2011/04/25</td>
-                    <td>$320,800</td>
+                    <th>1123</th>
+                    <th>Introducción a la ingeniería</th>
+                    <th>Manuel Cortés</th>
+                    <th>Ingeniería industrial</th>
+                    <th>Ingeniería, diseño e innovación</th>
+                    <th>3</th>
+                    <th>89%</th>
                   </tr>
                   <tr>
-                    <td>Garrett Winters</td>
-                    <td>Accountant</td>
-                    <td>Tokyo</td>
-                    <td>63</td>
-                    <td>2011/07/25</td>
-                    <td>$170,750</td>
+                    <th>1234</th>
+                    <th>Macroeconomía</th>
+                    <th>Julian Páez</th>
+                    <th>Negocios internacionales</th>
+                    <th>Negocios, gestión y sostebilidad</th>
+                    <th>3</th>
+                    <th>97%</th>
                   </tr>
                   <tr>
-                    <td>Ashton Cox</td>
-                    <td>Junior Technical Author</td>
-                    <td>San Francisco</td>
-                    <td>66</td>
-                    <td>2009/01/12</td>
-                    <td>$86,000</td>
+                    <th>1324</th>
+                    <th>Gestión de talento humano</th>
+                    <th>Felipe Caro Sosa</th>
+                    <th>Negocios internacionales</th>
+                    <th>Negocios, gestión y sostebilidad</th>
+                    <th>3</th>
+                    <th>63%</th>
                   </tr>
                   <tr>
-                    <td>Cedric Kelly</td>
-                    <td>Senior Javascript Developer</td>
-                    <td>Edinburgh</td>
-                    <td>22</td>
-                    <td>2012/03/29</td>
-                    <td>$433,060</td>
+                    <th>1124</th>
+                    <th>Gerencia financiera</th>
+                    <th>Erick Francisco Forigua</th>
+                    <th>Negocios internacionales</th>
+                    <th>Negocios, gestión y sostebilidad</th>
+                    <th>3</th>
+                    <th>80%</th>
                   </tr>
                   <tr>
-                    <td>Airi Satou</td>
-                    <td>Accountant</td>
-                    <td>Tokyo</td>
-                    <td>33</td>
-                    <td>2008/11/28</td>
-                    <td>$162,700</td>
+                    <th>2430</th>
+                    <th>Proceso administrativo</th>
+                    <th>Maria Fernanda Paternina</th>
+                    <th>Administración de empresas</th>
+                    <th>Negocios, gestión y sostebilidad</th>
+                    <th>3</th>
+                    <th>75%</th>
                   </tr>
                   <tr>
-                    <td>Brielle Williamson</td>
-                    <td>Integration Specialist</td>
-                    <td>New York</td>
-                    <td>61</td>
-                    <td>2012/12/02</td>
-                    <td>$372,000</td>
+                    <th>1187</th>
+                    <th>Costos y presupuestos</th>
+                    <th>Gleen Rodriguez</th>
+                    <th>administración de empresas</th>
+                    <th>Negocios, gestión y sostebilidad</th>
+                    <th>3</th>
+                    <th>78%</th>
                   </tr>
                   <tr>
-                    <td>Herrod Chandler</td>
-                    <td>Sales Assistant</td>
-                    <td>San Francisco</td>
-                    <td>59</td>
-                    <td>2012/08/06</td>
-                    <td>$137,500</td>
+                    <th>7811</th>
+                    <th>Diagnóstico empresarial</th>
+                    <th>Jesus Tobar </th>
+                    <th>administración de empresas</th>
+                    <th>Negocios, gestión y sostebilidad</th>
+                    <th>3</th>
+                    <th>90%</th>
                   </tr>
                   <tr>
-                    <td>Rhona Davidson</td>
-                    <td>Integration Specialist</td>
-                    <td>Tokyo</td>
-                    <td>55</td>
-                    <td>2010/10/14</td>
-                    <td>$327,900</td>
+                    <th>3759</th>
+                    <th>Producción limpia y sostenibilidad</th>
+                    <th>Maria Camila Cipagauta</th>
+                    <th>Tecnología en gestión ambiental</th>
+                    <th>Negocios, gestión y sostebilidad</th>
+                    <th>3</th>
+                    <th>94%</th>
                   </tr>
                   <tr>
-                    <td>Colleen Hurst</td>
-                    <td>Javascript Developer</td>
-                    <td>San Francisco</td>
-                    <td>39</td>
-                    <td>2009/09/15</td>
-                    <td>$205,500</td>
+                    <th>3344</th>
+                    <th>Cultura ambiental</th>
+                    <th>Karol Chavez</th>
+                    <th>Tecnología en gestión ambiental</th>
+                    <th>Negocios, gestión y sostebilidad</th>
+                    <th>3</th>
+                    <th>87%</th>
                   </tr>
                   <tr>
-                    <td>Sonya Frost</td>
-                    <td>Software Engineer</td>
-                    <td>Edinburgh</td>
-                    <td>23</td>
-                    <td>2008/12/13</td>
-                    <td>$103,600</td>
+                    <th>2754</th>
+                    <th>Teoría del equilibrio general</th>
+                    <th>Erika Nova</th>
+                    <th>Economía</th>
+                    <th>Negocios, gestión y sostebilidad</th>
+                    <th>3</th>
+                    <th>59%</th>
                   </tr>
                   <tr>
-                    <td>Jena Gaines</td>
-                    <td>Office Manager</td>
-                    <td>London</td>
-                    <td>30</td>
-                    <td>2008/12/19</td>
-                    <td>$90,560</td>
+                    <th>2800</th>
+                    <th>Geometría Geudidiana</th>
+                    <th>Brandon Camacho </th>
+                    <th>Matemáticas</th>
+                    <th>Ingeniería, diseño e innovación</th>
+                    <th>3</th>
+                    <th>71%</th>
                   </tr>
                   <tr>
-                    <td>Quinn Flynn</td>
-                    <td>Support Lead</td>
-                    <td>Edinburgh</td>
-                    <td>22</td>
-                    <td>2013/03/03</td>
-                    <td>$342,000</td>
+                    <th>2341</th>
+                    <th>Circuitos electrónicos</th>
+                    <th>Luisa Ramirez</th>
+                    <th>Ingeniería en telecomunicaciónes</th>
+                    <th>Ingeniería, diseño e innovación</th>
+                    <th>3</th>
+                    <th>83%</th>
                   </tr>
                   <tr>
-                    <td>Charde Marshall</td>
-                    <td>Regional Director</td>
-                    <td>San Francisco</td>
-                    <td>36</td>
-                    <td>2008/10/16</td>
-                    <td>$470,600</td>
+                    <th>4566</th>
+                    <th>Fundamentos de telecomunicaciones</th>
+                    <th>Laura Delgado </th>
+                    <th>Ingeniería en telecomunicaciónes</th>
+                    <th>Ingeniería, diseño e innovación</th>
+                    <th>3</th>
+                    <th>93%</th>
                   </tr>
                   <tr>
-                    <td>Haley Kennedy</td>
-                    <td>Senior Marketing Designer</td>
-                    <td>London</td>
-                    <td>43</td>
-                    <td>2012/12/18</td>
-                    <td>$313,500</td>
+                    <th>2845</th>
+                    <th>Taller creativo</th>
+                    <th>Lucia Gordillo</th>
+                    <th>Diseño industrial</th>
+                    <th>Ingeniería, diseño e innovación</th>
+                    <th>2</th>
+                    <th>70%</th>
                   </tr>
                   <tr>
-                    <td>Tatyana Fitzpatrick</td>
-                    <td>Regional Director</td>
-                    <td>London</td>
-                    <td>19</td>
-                    <td>2010/03/17</td>
-                    <td>$385,750</td>
+                    <th>1792</th>
+                    <th>Computación gráfica</th>
+                    <th>Juliana Páez</th>
+                    <th>Diseño gráfico</th>
+                    <th>Ingeniería, diseño e innovación</th>
+                    <th>3</th>
+                    <th>91%</th>
                   </tr>
                   <tr>
-                    <td>Michael Silva</td>
-                    <td>Marketing Designer</td>
-                    <td>London</td>
-                    <td>66</td>
-                    <td>2012/11/27</td>
-                    <td>$198,500</td>
+                    <th>1678</th>
+                    <th>Psicología evolutiva</th>
+                    <th>Nicol Gordillo </th>
+                    <th>Psicología</th>
+                    <th>Sociedad, cultura y creatividad</th>
+                    <th>3</th>
+                    <th>73%</th>
                   </tr>
                   <tr>
-                    <td>Paul Byrd</td>
-                    <td>Chief Financial Officer (CFO)</td>
-                    <td>New York</td>
-                    <td>64</td>
-                    <td>2010/06/09</td>
-                    <td>$725,000</td>
+                    <th>3898</th>
+                    <th>Fundamentos de psicología</th>
+                    <th>Nicolas Triana</th>
+                    <th>Psicología</th>
+                    <th>Sociedad, cultura y creatividad</th>
+                    <th>3</th>
+                    <th>92%</th>
                   </tr>
                   <tr>
-                    <td>Gloria Little</td>
-                    <td>Systems Administrator</td>
-                    <td>New York</td>
-                    <td>59</td>
-                    <td>2009/04/10</td>
-                    <td>$237,500</td>
+                    <th>2653</th>
+                    <th>Neuropsicología</th>
+                    <th>César Quiñones</th>
+                    <th>Psicología</th>
+                    <th>Sociedad, cultura y creatividad</th>
+                    <th>3</th>
+                    <th>87%</th>
                   </tr>
-                  
+                  <tr>
+                    <th>1890</th>
+                    <th>Psicología clínica</th>
+                    <th>Manuel Hernandez</th>
+                    <th>Psicología</th>
+                    <th>Sociedad, cultura y creatividad</th>
+                    <th>3</th>
+                    <th>97%</th>
+                  </tr>
+                  <tr>
+                    <th>2314</th>
+                    <th>Psicopatología</th>
+                    <th>Madeleyne Giraldo Morales</th>
+                    <th>Psicología</th>
+                    <th>Sociedad, cultura y creatividad</th>
+                    <th>3</th>
+                    <th>83%</th>
+                  </tr>
+                  <tr>
+                    <th>8745</th>
+                    <th>Penal especial y procedimiento</th>
+                    <th>Santiago Sierra</th>
+                    <th>Derecho</th>
+                    <th>Sociedad, cultura y creatividad</th>
+                    <th><3/th>
+                    <th>69%</th>
+                  </tr>
+                  <tr>
+                    <th>3452</th>
+                    <th>Obligaciones</th>
+                    <th>Hernan David Caicedo</th>
+                    <th>Derecho</th>
+                    <th>Sociedad, cultura y creatividad</th>
+                    <th>3</th>
+                    <th>94%</th>
+                  </tr>
+                  <tr>
+                    <th>3014</th>
+                    <th>Derecho civil personas</th>
+                    <th>Ana María Mosquera</th>
+                    <th>Derecho</th>
+                    <th>Sociedad, cultura y creatividad</th>
+                    <th>3</th>
+                    <th>70%</th>
+                  </tr>
+                  <tr>
+                    <th>5129</th>
+                    <th>Administrativo general</th>
+                    <th>Juliana Rivera</th>
+                    <th>Derecho</th>
+                    <th>Sociedad, cultura y creatividad</th>
+                    <th>3</th>
+                    <th>59%</th>
+                  </tr>
+                  <tr>
+                    <th>3912</th>
+                    <th>Estructura de datos</th>
+                    <th>Juan Camilo Cardona</th>
+                    <th>Ingeniería de sistemas</th>
+                    <th>Ingeniería, diseño e innovación</th>
+                    <th>3</th>
+                    <th>81%</th>
+                  </tr>
+                  <tr>
+                    <th>3956</th>
+                    <th>Bases de datos</th>
+                    <th>Nicolas Quiroga</th>
+                    <th>Ingeniería de sistemas</th>
+                    <th>Ingeniería, diseño e innovación</th>
+                    <th>3</th>
+                    <th>84%</th>
+                  </tr>
+                  <tr>
+                    <th>2571</th>
+                    <th>Métodos numéricos</th>
+                    <th>Claudia Díaz</th>
+                    <th>Ingeniería de sistemas</th>
+                    <th>Ingeniería, diseño e innovación</th>
+                    <th>3</th>
+                    <th>73%</th>
+                  </tr>
+                  <tr>
+                    <th>2001</th>
+                    <th>Tejidos</th>
+                    <th>Alejandra Camelo</th>
+                    <th>Diseño de modas</th>
+                    <th>Ingeniería, diseño e innovación</th>
+                    <th>3</th>
+                    <th>82%</th>
+                  </tr>
+                  <tr>
+                    <th>3821</th>
+                    <th>Accesorios</th>
+                    <th>Camia Zapata</th>
+                    <th>Diseño de modas</th>
+                    <th>Ingeniería, diseño e innovación</th>
+                    <th>3</th>
+                    <th>60%</th>
+                  </tr>
+                  <tr>
+                    <th>4772</th>
+                    <th>Historia del traje II	</th>
+                    <th>Juan Pablo Betancur</th>
+                    <th>Diseño de modas</th>
+                    <th>Ingeniería, diseño e innovación</th>
+                    <th>2</th>
+                    <th>73%</th>
+                  </tr>                  
                 </tbody>
               </table>
             </div>
